@@ -1,0 +1,56 @@
+{
+  "definition": {
+    "name": "新闻信源覆盖概览",
+    "subject": "引用记录",
+    "table": "citations",
+    "group": "topic",
+    "measure": "mentions"
+  },
+  "tables": {
+    "articles": [
+      {
+        "article_id": "n1",
+        "language": "en",
+        "topic": "heritage"
+      },
+      {
+        "article_id": "n2",
+        "language": "es",
+        "topic": "trade"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "src1",
+        "kind": "interview"
+      },
+      {
+        "source_id": "src2",
+        "kind": "document"
+      }
+    ],
+    "citations": [
+      {
+        "citation_id": "c1",
+        "article_id": "n1",
+        "source_id": "src1",
+        "topic": "heritage",
+        "mentions": 3
+      },
+      {
+        "citation_id": "c2",
+        "article_id": "n2",
+        "source_id": "src1",
+        "topic": "trade",
+        "mentions": 1
+      },
+      {
+        "citation_id": "c3",
+        "article_id": "n2",
+        "source_id": "src2",
+        "topic": "trade",
+        "mentions": 2
+      }
+    ]
+  }
+}
