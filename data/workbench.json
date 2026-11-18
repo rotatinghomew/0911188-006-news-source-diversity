@@ -1,0 +1,118 @@
+{
+  "month": "2026-06",
+  "articles": [
+    {
+      "id": "a1",
+      "language": "en",
+      "month": "2026-06",
+      "topic": "heritage"
+    },
+    {
+      "id": "a2",
+      "language": "fr",
+      "month": "2026-06",
+      "topic": "heritage"
+    },
+    {
+      "id": "a3",
+      "language": "zh",
+      "month": "2026-06",
+      "topic": "trade"
+    }
+  ],
+  "topics": [
+    {
+      "article": "a2",
+      "value": "heritage",
+      "date": "2026-06-08",
+      "state": "confirmed"
+    },
+    {
+      "article": "a2",
+      "value": "trade",
+      "date": "2026-06-25",
+      "state": "proposed"
+    }
+  ],
+  "origins": [
+    {
+      "id": "orig1",
+      "parent": null,
+      "group": "residents",
+      "verification": "confirmed"
+    },
+    {
+      "id": "wire-fr",
+      "parent": "orig1",
+      "group": "residents",
+      "verification": "confirmed"
+    },
+    {
+      "id": "orig2",
+      "parent": null,
+      "group": "researchers",
+      "verification": "unresolved"
+    },
+    {
+      "id": "orig3",
+      "parent": null,
+      "group": "exhibitors",
+      "verification": "confirmed"
+    }
+  ],
+  "citations": [
+    {
+      "id": "c1",
+      "article": "a1",
+      "source": "orig1",
+      "state": "active"
+    },
+    {
+      "id": "c2",
+      "article": "a2",
+      "source": "wire-fr",
+      "state": "active"
+    },
+    {
+      "id": "c3",
+      "article": "a1",
+      "source": "orig2",
+      "state": "active"
+    },
+    {
+      "id": "c4",
+      "article": "a3",
+      "source": "orig3",
+      "state": "active"
+    },
+    {
+      "id": "c5",
+      "article": "a2",
+      "source": "orig3",
+      "state": "withdrawn"
+    }
+  ],
+  "coverage_targets": {
+    "heritage": {
+      "residents": 2,
+      "researchers": 1
+    },
+    "trade": {
+      "exhibitors": 1
+    }
+  },
+  "assignments": [
+    {
+      "id": "j1",
+      "topic": "heritage",
+      "group": "residents",
+      "state": "sent"
+    },
+    {
+      "id": "j2",
+      "topic": "heritage",
+      "group": "researchers",
+      "state": "draft"
+    }
+  ]
+}
